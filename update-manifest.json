@@ -1,11 +1,32 @@
 {
-  "version": "1.3.1",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.3.0/DocumentManagement-1.3.1.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.3.1",
+  "version": "1.4.1",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.1/DocumentManagement-1.4.1.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.4.1",
   "changes": [
-    "Thêm chọn template theo hợp đồng",
-    "Sửa lỗi xuất Word",
-    "Cải thiện tốc độ tải dữ liệu"
+    {
+      "title": "Cập nhật template theo từng loại hợp đồng",
+      "description": "Mỗi hợp đồng có thể chọn bộ Word template và checklist tương ứng.",
+      "icon": "FileDocumentMultipleOutline",
+      "color": "#2196F3"
+    },
+    {
+      "title": "Cải thiện giao diện cập nhật",
+      "description": "Thông báo cập nhật rõ ràng và dễ thao tác hơn.",
+      "icon": "CloudDownloadOutline",
+      "color": "#2196F3"
+    },
+    {
+      "title": "Sửa lỗi thanh tiến trình",
+      "description": "Hiển thị đúng trạng thái tải và xử lý lỗi rõ ràng.",
+      "icon": "CheckCircleOutline",
+      "color": "#22C55E"
+    },
+    {
+      "title": "Cho phép tiêu chuẩn nhiều dòng",
+      "description": "Có thể nhập nội dung tiêu chuẩn xuống dòng.",
+      "icon": "RocketLaunchOutline",
+      "color": "#A855F7"
+    }
   ],
   "entryExecutable": "DocumentManagement.exe"
 }
