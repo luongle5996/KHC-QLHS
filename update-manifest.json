@@ -1,7 +1,7 @@
 {
-  "version": "1.4.1",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.1/DocumentManagement-1.4.1.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.4.1",
+  "version": "1.4.2",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.2/DocumentManagement-1.4.2.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.4.2",
   "changes": [
     {
       "title": "Cập nhật template theo từng loại hợp đồng",
