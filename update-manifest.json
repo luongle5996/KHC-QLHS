@@ -1,31 +1,44 @@
 {
-  "version": "1.4.2",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.2/DocumentManagement-1.4.2.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.4.2",
+  "version": "1.4.3",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.3/DocumentManagement-1.4.3.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.4.3",
+  "releaseNotes": "Phiên bản cập nhật 1.4.3: cập nhật AI, cải thiện đọc hợp đồng và bổ sung cấu hình tiêu chuẩn.",
   "changes": [
     {
-      "title": "Cập nhật template theo từng loại hợp đồng",
-      "description": "Mỗi hợp đồng có thể chọn bộ Word template và checklist tương ứng.",
-      "icon": "FileDocumentMultipleOutline",
+      "title": "Có sẵn cấu hình tiêu chuẩn",
+      "description": "Tích hợp sẵn các nhóm tiêu chuẩn Điện, Nước, Chữa cháy và ĐHKK.",
+      "icon": "FileDocumentCheckOutline",
       "color": "#2196F3"
     },
     {
-      "title": "Cải thiện giao diện cập nhật",
-      "description": "Thông báo cập nhật rõ ràng và dễ thao tác hơn.",
-      "icon": "CloudDownloadOutline",
-      "color": "#2196F3"
-    },
-    {
-      "title": "Sửa lỗi thanh tiến trình",
-      "description": "Hiển thị đúng trạng thái tải và xử lý lỗi rõ ràng.",
-      "icon": "CheckCircleOutline",
+      "title": "Có thể chỉnh sửa tiêu chuẩn",
+      "description": "Người dùng có thể thêm, sửa và xóa các tiêu chuẩn theo nhu cầu.",
+      "icon": "PencilOutline",
       "color": "#22C55E"
     },
     {
-      "title": "Cho phép tiêu chuẩn nhiều dòng",
-      "description": "Có thể nhập nội dung tiêu chuẩn xuống dòng.",
+      "title": "Bảo toàn dữ liệu khi đổi bộ template",
+      "description": "Đổi bộ template chỉ thay đổi đường dẫn mẫu, không xóa dữ liệu CVXD và VTĐV đã nhập.",
       "icon": "RocketLaunchOutline",
       "color": "#A855F7"
+    },
+    {
+      "title": "Cập nhật model GPT-OSS cho Groq AI",
+      "description": "Cập nhật model GPT-OSS để hỗ trợ đọc và phân tích nội dung hợp đồng tốt hơn.",
+      "icon": "Brain",
+      "color": "#F59E0B"
+    },
+    {
+      "title": "Cải thiện đọc thông tin hợp đồng",
+      "description": "Fix lỗi AI đọc sai số hợp đồng, giá trị hợp đồng, tạm ứng và các thông tin liên quan.",
+      "icon": "FileSearchOutline",
+      "color": "#06B6D4"
+    },
+    {
+      "title": "Các chỉnh sửa nhỏ khác",
+      "description": "Cải thiện độ ổn định và trải nghiệm sử dụng trong quá trình làm việc.",
+      "icon": "WrenchOutline",
+      "color": "#94A3B8"
     }
   ],
   "entryExecutable": "DocumentManagement.exe"
