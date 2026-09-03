@@ -1,8 +1,7 @@
 {
-  "version": "1.4.3",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.4.3/DocumentManagement-1.4.3.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.4.3",
-  "releaseNotes": "Phiên bản cập nhật 1.4.3: cập nhật AI, cải thiện đọc hợp đồng và bổ sung cấu hình tiêu chuẩn.",
+  "version": "1.5.0",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.0/DocumentManagement-1.5.0.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.5.0: hoàn thiện hồ sơ pháp lý, danh sách đại diện và các cải tiến giao diện.",
   "changes": [
     {
       "title": "Có sẵn cấu hình tiêu chuẩn",
