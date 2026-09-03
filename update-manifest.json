@@ -4,40 +4,28 @@
   "releaseNotes": "Phiên bản cập nhật 1.5.0: hoàn thiện hồ sơ pháp lý, danh sách đại diện và các cải tiến giao diện.",
   "changes": [
     {
-      "title": "Có sẵn cấu hình tiêu chuẩn",
-      "description": "Tích hợp sẵn các nhóm tiêu chuẩn Điện, Nước, Chữa cháy và ĐHKK.",
-      "icon": "FileDocumentCheckOutline",
+      "title": "Tạo hồ sơ pháp lý",
+      "description": "Bổ sung khu vực tạo và xuất hồ sơ pháp lý theo hợp đồng, gồm PLNT, CCAT, đơn khởi công và biên bản giao mặt bằng.",
+      "icon": "FileDocumentEditOutline",
       "color": "#2196F3"
     },
     {
-      "title": "Có thể chỉnh sửa tiêu chuẩn",
-      "description": "Người dùng có thể thêm, sửa và xóa các tiêu chuẩn theo nhu cầu.",
-      "icon": "PencilOutline",
+      "title": "Danh sách đại diện và người ký",
+      "description": "Khai báo thành phần từng bên, chọn người ký để tự thay thế placeholder khi xuất CVXD, VTĐV và HSPL.",
+      "icon": "AccountGroupOutline",
       "color": "#22C55E"
     },
     {
-      "title": "Bảo toàn dữ liệu khi đổi bộ template",
-      "description": "Đổi bộ template chỉ thay đổi đường dẫn mẫu, không xóa dữ liệu CVXD và VTĐV đã nhập.",
-      "icon": "RocketLaunchOutline",
+      "title": "Lưu và nạp mẫu danh sách",
+      "description": "Lưu riêng mẫu ban chỉ huy, công nhân và thành phần đại diện để dùng lại nhanh cho các hợp đồng sau.",
+      "icon": "ContentSaveOutline",
       "color": "#A855F7"
     },
     {
-      "title": "Cập nhật model GPT-OSS cho Groq AI",
-      "description": "Cập nhật model GPT-OSS để hỗ trợ đọc và phân tích nội dung hợp đồng tốt hơn.",
-      "icon": "Brain",
+      "title": "Cải thiện xuất hồ sơ",
+      "description": "Bổ sung xử lý placeholder ngày khởi công, danh sách đại diện và căn chỉnh nội dung khi tạo văn bản.",
+      "icon": "FileExportOutline",
       "color": "#F59E0B"
-    },
-    {
-      "title": "Cải thiện đọc thông tin hợp đồng",
-      "description": "Fix lỗi AI đọc sai số hợp đồng, giá trị hợp đồng, tạm ứng và các thông tin liên quan.",
-      "icon": "FileSearchOutline",
-      "color": "#06B6D4"
-    },
-    {
-      "title": "Các chỉnh sửa nhỏ khác",
-      "description": "Cải thiện độ ổn định và trải nghiệm sử dụng trong quá trình làm việc.",
-      "icon": "WrenchOutline",
-      "color": "#94A3B8"
     }
   ],
   "entryExecutable": "DocumentManagement.exe"
