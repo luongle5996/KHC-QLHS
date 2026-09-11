@@ -1,29 +1,29 @@
 {
-  "version": "1.5.0",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.0/DocumentManagement-1.5.0.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.5.0: hoàn thiện hồ sơ pháp lý, danh sách đại diện và các cải tiến giao diện.",
+  "version": "1.5.1",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.1/DocumentManagement-1.5.1.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.5.1: bổ sung quản lý hồ sơ đã tạo, cải thiện giao diện light/dark và tinh chỉnh thao tác chọn trong danh sách hồ sơ.",
   "changes": [
     {
-      "title": "Tạo hồ sơ pháp lý",
-      "description": "Bổ sung khu vực tạo và xuất hồ sơ pháp lý theo hợp đồng, gồm PLNT, CCAT, đơn khởi công và biên bản giao mặt bằng.",
+      "title": "Quản lý hồ sơ đã tạo",
+      "description": "Bổ sung cửa sổ quản lý các file hồ sơ do app tạo, hỗ trợ mở file, mở thư mục chứa, đổi tên, sao chép đường dẫn và xóa file.",
       "icon": "FileDocumentEditOutline",
       "color": "#2196F3"
     },
     {
-      "title": "Danh sách đại diện và người ký",
-      "description": "Khai báo thành phần từng bên, chọn người ký để tự thay thế placeholder khi xuất CVXD, VTĐV và HSPL.",
+      "title": "Đồng bộ giao diện",
+      "description": "Căn chỉnh lại giao diện quản lý hồ sơ đã tạo và đồng bộ màu sắc cho cả theme light và dark.",
       "icon": "AccountGroupOutline",
       "color": "#22C55E"
     },
     {
-      "title": "Lưu và nạp mẫu danh sách",
-      "description": "Lưu riêng mẫu ban chỉ huy, công nhân và thành phần đại diện để dùng lại nhanh cho các hợp đồng sau.",
+      "title": "Cải thiện thao tác danh sách",
+      "description": "Tinh chỉnh vùng bấm và bố cục điều khiển trong các bảng danh sách để thao tác ổn định hơn.",
       "icon": "ContentSaveOutline",
       "color": "#A855F7"
     },
     {
-      "title": "Cải thiện xuất hồ sơ",
-      "description": "Bổ sung xử lý placeholder ngày khởi công, danh sách đại diện và căn chỉnh nội dung khi tạo văn bản.",
+      "title": "Cập nhật phiên bản",
+      "description": "Đóng gói bản phát hành 1.5.1 để các bản cũ có thể tải và cập nhật tự động.",
       "icon": "FileExportOutline",
       "color": "#F59E0B"
     }
