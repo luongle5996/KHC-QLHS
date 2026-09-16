@@ -1,7 +1,7 @@
 {
-  "version": "1.5.1",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.1/DocumentManagement-1.5.1.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.5.1: bổ sung quản lý hồ sơ đã tạo, cải thiện giao diện light/dark và tinh chỉnh thao tác chọn trong danh sách hồ sơ.",
+  "version": "1.5.2",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.2/DocumentManagement-1.5.2.zip",
+  "releaseNotes": "Phiên bản cập nhật 1.5.2: đồng bộ giao diện theme và cải thiện điều hướng cửa sổ.",
   "changes": [
     {
       "title": "Quản lý hồ sơ đã tạo",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Cập nhật phiên bản",
-      "description": "Đóng gói bản phát hành 1.5.1 để các bản cũ có thể tải và cập nhật tự động.",
+      "description": "Đóng gói bản phát hành 1.5.2 để các bản cũ có thể tải và cập nhật tự động.",
       "icon": "FileExportOutline",
       "color": "#F59E0B"
     }
