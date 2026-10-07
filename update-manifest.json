@@ -1,8 +1,20 @@
 {
-  "version": "1.5.2",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.2/DocumentManagement-1.5.2.zip",
-  "releaseNotes": "Phiên bản cập nhật 1.5.2: đồng bộ giao diện theme và cải thiện điều hướng cửa sổ.",
+  "version": "1.5.3",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.3/DocumentManagement-1.5.3.zip",
+  "releaseNotes": "Phiên bản 1.5.3 bổ sung phân hệ quản lý chỉ thị công trình, tự quét file scan theo năm và tinh gọn giao diện.",
   "changes": [
+    {
+      "title": "Quản lý chỉ thị công trình",
+      "description": "Bổ sung phân hệ tập trung để chọn thư mục gốc, tự đọc các thư mục năm, nhận diện số và tên chỉ thị từ tên file scan, hỗ trợ PDF/ảnh, kéo thả và nhập nhiều file.",
+      "icon": "FileDocumentEditOutline",
+      "color": "#2563EB"
+    },
+    {
+      "title": "Lưu scan theo năm",
+      "description": "Tự phân loại file vào thư mục con theo năm trong số chỉ thị, cho phép đổi thư mục lưu và quét lại dữ liệu hiện có mà vẫn giữ dữ liệu cũ.",
+      "icon": "FolderOpenOutline",
+      "color": "#14B8A6"
+    },
     {
       "title": "Quản lý hồ sơ đã tạo",
       "description": "Bổ sung cửa sổ quản lý các file hồ sơ do app tạo, hỗ trợ mở file, mở thư mục chứa, đổi tên, sao chép đường dẫn và xóa file.",
@@ -23,7 +35,7 @@
     },
     {
       "title": "Cập nhật phiên bản",
-      "description": "Đóng gói bản phát hành 1.5.2 để các bản cũ có thể tải và cập nhật tự động.",
+      "description": "Đóng gói bản phát hành 1.5.3 để các bản cũ có thể tải và cập nhật tự động.",
       "icon": "FileExportOutline",
       "color": "#F59E0B"
     }
