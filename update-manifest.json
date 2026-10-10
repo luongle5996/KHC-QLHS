@@ -1,43 +1,49 @@
 {
-  "version": "1.5.3",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.3/DocumentManagement-1.5.3.zip",
-  "releaseNotes": "Phiên bản 1.5.3 bổ sung phân hệ quản lý chỉ thị công trình, tự quét file scan theo năm và tinh gọn giao diện.",
+  "version": "1.5.5",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.5/DocumentManagement-1.5.5.zip",
+  "releaseNotes": "Phiên bản 1.5.5 sửa đường dẫn template HSCL và tự cập nhật danh sách khi thêm bộ template mới; bao gồm các tính năng PDVT, BoQ và CVXD/LĐTTB từ 1.5.4.",
   "changes": [
     {
-      "title": "Quản lý chỉ thị công trình",
-      "description": "Bổ sung phân hệ tập trung để chọn thư mục gốc, tự đọc các thư mục năm, nhận diện số và tên chỉ thị từ tên file scan, hỗ trợ PDF/ảnh, kéo thả và nhập nhiều file.",
-      "icon": "FileDocumentEditOutline",
+      "title": "Theo dõi phê duyệt vật tư (PDVT)",
+      "description": "Tạo và quản lý phiếu PDVT theo hợp đồng, thêm nhiều vật tư từ BoQ hoặc khai báo vật tư phát sinh, theo dõi trạng thái duyệt và lịch sử các đợt phê duyệt.",
+      "icon": "ClipboardCheckOutline",
       "color": "#2563EB"
     },
     {
-      "title": "Lưu scan theo năm",
-      "description": "Tự phân loại file vào thư mục con theo năm trong số chỉ thị, cho phép đổi thư mục lưu và quét lại dữ liệu hiện có mà vẫn giữ dữ liệu cũ.",
-      "icon": "FolderOpenOutline",
+      "title": "Đọc BoQ Excel linh hoạt hơn",
+      "description": "Tìm tiêu đề ở nhiều sheet và nhiều dòng, nhận diện các cách đặt tên cột phổ biến, xử lý tiêu đề trùng và công thức liên kết workbook ngoài dựa trên giá trị Excel đã lưu; giữ nguyên file gốc.",
+      "icon": "FileExcelOutline",
+      "color": "#22C55E"
+    },
+    {
+      "title": "Tách mẫu CVXD và LĐTTB",
+      "description": "Biên bản loại CVXD dùng CVXD_Template.docx; loại LĐTTB/LDTTB dùng LĐTTB_Template.docx. Các loại nghiệm thu khác tiếp tục lấy mẫu theo tên loại.",
+      "icon": "FileDocumentEditOutline",
+      "color": "#60A5FA"
+    },
+    {
+      "title": "Placeholder số checklist {SoCL}",
+      "description": "Bổ sung {SoCL} để chèn số checklist được tính khi xuất CVXD; để trống nếu dòng không có checklist.",
+      "icon": "FormatListNumbered",
+      "color": "#A78BFA"
+    },
+    {
+      "title": "Quản lý chỉ thị công trình",
+      "description": "Theo dõi tập trung file scan chỉ thị, tự đọc số và tên từ tên file, quét thư mục năm, kéo thả và nhập nhiều file vào thư mục lưu đã chọn.",
+      "icon": "FileDocumentEditOutline",
       "color": "#14B8A6"
     },
     {
       "title": "Quản lý hồ sơ đã tạo",
-      "description": "Bổ sung cửa sổ quản lý các file hồ sơ do app tạo, hỗ trợ mở file, mở thư mục chứa, đổi tên, sao chép đường dẫn và xóa file.",
-      "icon": "FileDocumentEditOutline",
-      "color": "#2196F3"
-    },
-    {
-      "title": "Đồng bộ giao diện",
-      "description": "Căn chỉnh lại giao diện quản lý hồ sơ đã tạo và đồng bộ màu sắc cho cả theme light và dark.",
-      "icon": "AccountGroupOutline",
-      "color": "#22C55E"
-    },
-    {
-      "title": "Cải thiện thao tác danh sách",
-      "description": "Tinh chỉnh vùng bấm và bố cục điều khiển trong các bảng danh sách để thao tác ổn định hơn.",
-      "icon": "ContentSaveOutline",
-      "color": "#A855F7"
-    },
-    {
-      "title": "Cập nhật phiên bản",
-      "description": "Đóng gói bản phát hành 1.5.3 để các bản cũ có thể tải và cập nhật tự động.",
-      "icon": "FileExportOutline",
+      "description": "Mở file và thư mục chứa, đổi tên, sao chép đường dẫn và xóa các hồ sơ do ứng dụng tạo.",
+      "icon": "FolderOpenOutline",
       "color": "#F59E0B"
+    },
+    {
+      "title": "Sửa bộ template và cập nhật phiên bản",
+      "description": "Không tự tạo thư mục HSCL gốc sai vị trí; tự nhận diện và cập nhật danh sách khi thêm, xóa hoặc đổi tên bộ template tùy chỉnh.",
+      "icon": "FileExportOutline",
+      "color": "#F472B6"
     }
   ],
   "entryExecutable": "DocumentManagement.exe"
