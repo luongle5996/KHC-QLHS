@@ -1,8 +1,26 @@
 {
-  "version": "1.5.5",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.5/DocumentManagement-1.5.5.zip",
-  "releaseNotes": "Phiên bản 1.5.5 sửa đường dẫn template HSCL và tự cập nhật danh sách khi thêm bộ template mới; bao gồm các tính năng PDVT, BoQ và CVXD/LĐTTB từ 1.5.4.",
+  "version": "1.5.6",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.6/DocumentManagement-1.5.6.zip",
+  "releaseNotes": "Phiên bản 1.5.6 cải thiện giao diện ở nhiều độ phân giải, thanh cuộn riêng cho bảng, xuống dòng cột vật tư VTĐV và chọn dải ô để dán một cột từ Excel; giữ các tính năng PDVT, BoQ, CVXD/LĐTTB và template của bản 1.5.5.",
   "changes": [
+    {
+      "title": "Giao diện phù hợp nhiều độ phân giải",
+      "description": "Điều chỉnh bố cục Quản lý hồ sơ, CVXD, VTĐV, HSPL, Hồ sơ khác và Thông tin dự án; giữ nút thao tác hiển thị và cuộn trong danh sách hoặc bảng phù hợp với kích thước cửa sổ.",
+      "icon": "FileDocumentEditOutline",
+      "color": "#2563EB"
+    },
+    {
+      "title": "Bảng vật tư VTĐV dễ đọc và dễ nhập",
+      "description": "Tên vật tư, Thương hiệu/Xuất xứ và Số CO/CQ xuống dòng theo chiều rộng ô; có thể chọn dải ô trong một cột rồi dán dữ liệu từ Excel bằng Ctrl+V mà không chọn lại cả hàng.",
+      "icon": "FileExcelOutline",
+      "color": "#14B8A6"
+    },
+    {
+      "title": "Tạo hồ sơ pháp lý gọn hơn",
+      "description": "Ban chỉ huy và danh sách công nhân dùng diện tích màn hình tốt hơn, có vùng cuộn riêng và sắp xếp lại các nút thêm, nhập dữ liệu.",
+      "icon": "ClipboardCheckOutline",
+      "color": "#A78BFA"
+    },
     {
       "title": "Theo dõi phê duyệt vật tư (PDVT)",
       "description": "Tạo và quản lý phiếu PDVT theo hợp đồng, thêm nhiều vật tư từ BoQ hoặc khai báo vật tư phát sinh, theo dõi trạng thái duyệt và lịch sử các đợt phê duyệt.",
