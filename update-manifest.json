@@ -1,68 +1,26 @@
 {
-  "version": "1.5.6",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.6/DocumentManagement-1.5.6.zip",
-  "releaseNotes": "Phiên bản 1.5.6 cải thiện giao diện ở nhiều độ phân giải, thanh cuộn riêng cho bảng, xuống dòng cột vật tư VTĐV và chọn dải ô để dán một cột từ Excel; giữ các tính năng PDVT, BoQ, CVXD/LĐTTB và template của bản 1.5.5.",
+  "version": "1.5.7",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.7/DocumentManagement-1.5.7.zip",
+  "releaseNotes": "Phiên bản 1.5.7 cải thiện phê duyệt vật tư và nạp BoQ, tự lưu phiếu đang soạn, sửa đọc Excel quyết toán.",
   "changes": [
     {
-      "title": "Giao diện phù hợp nhiều độ phân giải",
-      "description": "Điều chỉnh bố cục Quản lý hồ sơ, CVXD, VTĐV, HSPL, Hồ sơ khác và Thông tin dự án; giữ nút thao tác hiển thị và cuộn trong danh sách hoặc bảng phù hợp với kích thước cửa sổ.",
-      "icon": "FileDocumentEditOutline",
-      "color": "#2563EB"
-    },
-    {
-      "title": "Bảng vật tư VTĐV dễ đọc và dễ nhập",
-      "description": "Tên vật tư, Thương hiệu/Xuất xứ và Số CO/CQ xuống dòng theo chiều rộng ô; có thể chọn dải ô trong một cột rồi dán dữ liệu từ Excel bằng Ctrl+V mà không chọn lại cả hàng.",
-      "icon": "FileExcelOutline",
-      "color": "#14B8A6"
-    },
-    {
-      "title": "Tạo hồ sơ pháp lý gọn hơn",
-      "description": "Ban chỉ huy và danh sách công nhân dùng diện tích màn hình tốt hơn, có vùng cuộn riêng và sắp xếp lại các nút thêm, nhập dữ liệu.",
+      "color": "#2563EB",
       "icon": "ClipboardCheckOutline",
-      "color": "#A78BFA"
+      "title": "Phê duyệt vật tư và BoQ",
+      "description": "Nạp BoQ với xem trước, chọn cột và trạng thái đang đọc; lập phiếu theo vật tư hợp đồng hoặc vật tư phát sinh, chọn model, nhãn hiệu và xuất xứ để đề trình."
     },
     {
-      "title": "Theo dõi phê duyệt vật tư (PDVT)",
-      "description": "Tạo và quản lý phiếu PDVT theo hợp đồng, thêm nhiều vật tư từ BoQ hoặc khai báo vật tư phát sinh, theo dõi trạng thái duyệt và lịch sử các đợt phê duyệt.",
-      "icon": "ClipboardCheckOutline",
-      "color": "#2563EB"
+      "color": "#14B8A6",
+      "icon": "ContentSaveOutline",
+      "title": "Tự lưu phiếu PDVT",
+      "description": "Phiếu mới và vật tư đang chọn được lưu tự động, xuất hiện trong danh sách phiếu; giữ thứ tự và cấu trúc đầu mục theo BoQ."
     },
     {
-      "title": "Đọc BoQ Excel linh hoạt hơn",
-      "description": "Tìm tiêu đề ở nhiều sheet và nhiều dòng, nhận diện các cách đặt tên cột phổ biến, xử lý tiêu đề trùng và công thức liên kết workbook ngoài dựa trên giá trị Excel đã lưu; giữ nguyên file gốc.",
+      "color": "#22C55E",
       "icon": "FileExcelOutline",
-      "color": "#22C55E"
+      "title": "Đọc Excel quyết toán ổn định hơn",
+      "description": "Xử lý workbook có liên kết ngoài bị lỗi trên bản tạm, không sửa file gốc; bổ sung nhận diện giá trị thanh toán và cảnh báo khi số tiền không khớp chữ."
     },
-    {
-      "title": "Tách mẫu CVXD và LĐTTB",
-      "description": "Biên bản loại CVXD dùng CVXD_Template.docx; loại LĐTTB/LDTTB dùng LĐTTB_Template.docx. Các loại nghiệm thu khác tiếp tục lấy mẫu theo tên loại.",
-      "icon": "FileDocumentEditOutline",
-      "color": "#60A5FA"
-    },
-    {
-      "title": "Placeholder số checklist {SoCL}",
-      "description": "Bổ sung {SoCL} để chèn số checklist được tính khi xuất CVXD; để trống nếu dòng không có checklist.",
-      "icon": "FormatListNumbered",
-      "color": "#A78BFA"
-    },
-    {
-      "title": "Quản lý chỉ thị công trình",
-      "description": "Theo dõi tập trung file scan chỉ thị, tự đọc số và tên từ tên file, quét thư mục năm, kéo thả và nhập nhiều file vào thư mục lưu đã chọn.",
-      "icon": "FileDocumentEditOutline",
-      "color": "#14B8A6"
-    },
-    {
-      "title": "Quản lý hồ sơ đã tạo",
-      "description": "Mở file và thư mục chứa, đổi tên, sao chép đường dẫn và xóa các hồ sơ do ứng dụng tạo.",
-      "icon": "FolderOpenOutline",
-      "color": "#F59E0B"
-    },
-    {
-      "title": "Sửa bộ template và cập nhật phiên bản",
-      "description": "Không tự tạo thư mục HSCL gốc sai vị trí; tự nhận diện và cập nhật danh sách khi thêm, xóa hoặc đổi tên bộ template tùy chỉnh.",
-      "icon": "FileExportOutline",
-      "color": "#F472B6"
-    }
   ],
   "entryExecutable": "DocumentManagement.exe"
 }
