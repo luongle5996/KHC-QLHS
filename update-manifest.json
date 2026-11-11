@@ -1,7 +1,7 @@
 {
   "version": "1.5.7",
   "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.7/DocumentManagement-1.5.7.zip",
-  "releaseNotes": "Phiên bản 1.5.7 cải thiện phê duyệt vật tư và nạp BoQ, tự lưu phiếu đang soạn, sửa đọc Excel quyết toán.",
+  "releaseNotes": "Phiên bản 1.5.7 cải thiện PDVT và nạp BoQ, hỗ trợ mẫu PDVT riêng theo từng bộ PKH/Bà Nà/Tổng thầu, tự lưu phiếu; sửa đọc quyết toán và lỗi phân tích manifest cập nhật.",
   "changes": [
     {
       "color": "#2563EB",
@@ -21,6 +21,30 @@
       "title": "Đọc Excel quyết toán ổn định hơn",
       "description": "Xử lý workbook có liên kết ngoài bị lỗi trên bản tạm, không sửa file gốc; bổ sung nhận diện giá trị thanh toán và cảnh báo khi số tiền không khớp chữ."
     },
+    {
+      "color": "#A78BFA",
+      "icon": "RobotOutline",
+      "title": "Giảm lỗi quá hạn mức Groq",
+      "description": "Giới hạn dữ liệu gửi mô hình AI theo hạn mức yêu cầu để giảm lỗi request quá lớn."
+    },
+    {
+      "color": "#60A5FA",
+      "icon": "FileDocumentEditOutline",
+      "title": "Thống nhất tên ứng dụng",
+      "description": "Phần Cài đặt hiển thị Document Manager v1.5.7."
+    },
+    {
+      "title": "Mẫu PDVT theo bộ template",
+      "description": "Đặt PDVT_template.xlsx trong TEMPLATES/<Bộ mẫu>/HSCL/PDVT; cấu hình hiển thị đường dẫn và dùng đúng mẫu khi xuất phiếu.",
+      "icon": "FileExcelOutline",
+      "color": "#F59E0B"
+    },
+    {
+      "title": "Sửa lỗi kiểm tra cập nhật",
+      "description": "Ứng dụng chấp nhận manifest JSON có dấu phẩy cuối; manifest phát hành được chuẩn hóa để phiên bản cũ cũng đọc được.",
+      "icon": "Update",
+      "color": "#60A5FA"
+    }
   ],
   "entryExecutable": "DocumentManagement.exe"
 }
