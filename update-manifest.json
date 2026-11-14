@@ -1,8 +1,20 @@
 {
-  "version": "1.5.7",
-  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.7/DocumentManagement-1.5.7.zip",
-  "releaseNotes": "Phiên bản 1.5.7 cải thiện PDVT và nạp BoQ, hỗ trợ mẫu PDVT riêng theo từng bộ PKH/Bà Nà/Tổng thầu, tự lưu phiếu; sửa đọc quyết toán và lỗi phân tích manifest cập nhật.",
+  "version": "1.5.8",
+  "packageUrl": "https://github.com/luongle5996/KHC-QLHS/releases/download/v1.5.8/DocumentManagement-1.5.8.zip",
+  "releaseNotes": "Phiên bản 1.5.8 hoàn thiện giao diện Light/Dark, bố cục các phân hệ, PDVT, vùng bấm và ô gõ chọn hợp đồng, cùng bảng Ban chỉ huy HSPL.",
   "changes": [
+    {
+      "color": "#2563EB",
+      "icon": "FormDropdown",
+      "title": "Chọn hợp đồng và giao diện",
+      "description": "Cải thiện vùng bấm ComboBox, cho phép gõ số hợp đồng; đồng bộ bố cục và màu Light/Dark."
+    },
+    {
+      "color": "#14B8A6",
+      "icon": "ClipboardTextOutline",
+      "title": "Bảng hồ sơ pháp lý",
+      "description": "Căn lại ô Báo cáo cho trong bảng Ban chỉ huy để đọc đủ tên người."
+    },
     {
       "color": "#2563EB",
       "icon": "ClipboardCheckOutline",
@@ -31,7 +43,7 @@
       "color": "#60A5FA",
       "icon": "FileDocumentEditOutline",
       "title": "Thống nhất tên ứng dụng",
-      "description": "Phần Cài đặt hiển thị Document Manager v1.5.7."
+      "description": "Phần Cài đặt hiển thị Document Manager v1.5.8."
     },
     {
       "title": "Mẫu PDVT theo bộ template",
